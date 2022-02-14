@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    align-items: stretch;
+    text-align: center;
+}
+header{
+    text-align: center;
+    color: white;
+}
+main{
+    text-align: start;
+    padding: 1rem;
+}
+
+#test-results{
+    color: white;
+    text-align: center;
+    margin-top: 0.5rem;
+}

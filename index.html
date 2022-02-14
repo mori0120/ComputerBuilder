@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-secondary">
+        <h1 class="display-4">Build Your Own Computer</h1>
+    </header>
+    <main>
+        <div>
+            <h4>Step1: Select Your CPU</h4>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>Brand: </p>
+                    <select id="cpu-brand-select" aria-label="CPU-brand-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>Model: </p>
+                    <select id="cpu-model-select" aria-label="CPU-model-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h4>Step2: Select Your GPU</h4>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>Brand: </p>
+                    <select id="gpu-brand-select" aria-label="GPU-brand-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>Model: </p>
+                    <select id="gpu-model-select" aria-label="GPU-model-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h4>Step3: Select Your Memory Card</h4>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>How many?: </p>
+                    <select id="memory-amount-select" aria-label="Memory-amount-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>Brand: </p>
+                    <select id="memory-brand-select" aria-label="Memory-brand-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>Model: </p>
+                    <select id="memory-model-select" aria-label="Memory-model-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h4>Step4: Select Your Storage</h4>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>HDD or SSD: </p>
+                    <select id="storage-type-select" aria-label="Storage-type-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>Storage: </p>
+                    <select id="storage-amount-select" aria-label="Storage-amount-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>Brand: </p>
+                    <select id="storage-brand-select" aria-label="Storage-brand-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-row align-items-baseline m-2">
+                    <p>Model: </p>
+                    <select id="storage-model-select" aria-label="Storage-model-select">
+                        <option selected>Open this select menu</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <button id="add-button" type="button" class="btn btn-primary"> Add PC </button>
+        <div id="test-results"></div>
+    </main>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
